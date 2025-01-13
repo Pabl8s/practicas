@@ -34,14 +34,14 @@ void loop()
 void leds()
 {
   digitalWrite(L_VERDE, HIGH);//encende o led verde
-  delay(tiempo); // Wait for 3000 millisecond(s)
+  delay(tiempo); 
   digitalWrite(L_VERDE, LOW);//apaga o led verde
-  delay(tiempo/2); // Wait for 1500 millisecond(s)
+  delay(tiempo/2); 
   digitalWrite(L_ROJO, HIGH);//encende o led vermello
   digitalWrite(RELE, HIGH);//excita o rele que encende a bombilla
-  delay(tiempo); // Wait for 3000 millisecond(s)
+  delay(tiempo); 
   digitalWrite(L_ROJO, LOW);//apaga o led vermello
   digitalWrite(RELE, LOW);//apaga o rele que encende a bombilla
-  delay(tiempo/2); // Wait for 1500 millisecond(s)
+  delay(tiempo/2); 
 }
   
